@@ -39,20 +39,12 @@
               <br/>University of Texas at Austin
             </p>
             <br/>
-            <div style="float: left; width: 100%;">
-              <span style="float: left; width: 33%; text-align: left;">
-                <img style="border:0;" src="images/themes/ut.png" width="100%">
-              </span>
-              <span style="float: left; width: 33%; text-align: center;">
-                <img style="border:0;" src="images/themes/cb-geo-text.png" width="60%">
-              </span>
-              <span style="float: right; width: 33%; text-align: right;">
-                <img style="border:0;" src="images/themes/berkeley.png" width="78%">
-              </span>
+            <div style="float: center; width: 100%;">
+                <img style="border:0;" src="images/themes/ut.png" width="50%">
             </div>
             <div style="clear: both; width: 100%">
               <br/>
-              <h4>Indian Institute of Technology Madras<br/>20th August 2019</h4>
+              <h4>Hildebrand Department of Petroleum and Geosystems Engineering<br/>23rd September 2019</h4>
             </div>
           </section>
         </section>
@@ -67,7 +59,7 @@
 
           <!-- Numerical methods -->
           <section>
-            <h3>Cambridge-Berkeley Computational Geomechanics</h3>
+            <h3>CB-Geo Computational Geomechanics</h3>
             <ul>
               <li> Material Point Method </li>
               <li> Lattice-Boltzmann + Discrete Element Method </li>
@@ -125,6 +117,16 @@
               </figure>
             </div>
           </section>
+          <!-- Granular column collapse -->
+          <section>
+            <h2>Granular column collapse</h2>
+            <img style = "border:0;" src="images/column_collapse.png" width="80%">
+          </section>
+          <section>
+            <h2>Experimental results (Lube et al 2005)</h2>
+            <img style = "border:0;" src="images/runout_column_collapse.png" width="70%">
+          </section>
+
           <!-- Material Point Method -->
           <section>
             <h2>MPM column collapse</h2>
@@ -165,6 +167,68 @@
             </div>
           </section>
 
+          <!-- Material Point Method -->
+          <section>
+            <h2>MPM v DEM column collapse</h2>
+            <div style="float: left; width: 50%;">
+              <figure>
+                <img style = "border:0;" src="images/a04f.png" width="100%">
+                <figcaption>
+                  a = 0.4
+                </figcaption>
+              </figure>
+            </div>
+            <div style="float: right; width: 50%;">
+              <figure>
+                <img style = "border:0;" src="images/a6f.png" width="100%">
+                <figcaption>
+                  a = 6
+                </figcaption>
+              </figure>
+            </div>
+          </section>
+          <!-- MPM v DEM runout -->
+          <section>
+            <h2>MPM v DEM column collapse</h2>
+            <figure>
+              <img style = "border:0;" src="images/mpm_colum_runout.png" width="80%">
+              <figcaption>
+                Runout v aspect ratio
+              </figcaption>
+            </figure>
+          </section>
+          <!-- DEM -->
+          <section>
+            <h2>DEM column collapse</h2>
+            <video  width="80%" autoplay controls loop>
+              <source src="media/a6_dem.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+          </section>
+          <!-- MPM v DEM energy -->
+          <section>
+            <h2>MPM v DEM column collapse</h2>
+            <div style="float: left; width: 50%;">
+              <figure>
+                <img style = "border:0;" src="images/a04_energy.png" width="100%">
+                <figcaption>
+                  a = 0.4
+                </figcaption>
+              </figure>
+            </div>
+            <div style="float: right; width: 50%;">
+              <figure>
+                <img style = "border:0;" src="images/a6_energy.png" width="100%">
+                <figcaption>
+                  a = 6
+                </figcaption>
+              </figure>
+            </div>
+            <div style="clear: both;">
+              <br/>
+              Collisional dissipation mechanism is missing in the continuum approach.
+            </div>
+          </section>
           <!-- MPM v DEM runout -->
           <section>
             <h2>MPM v DEM column collapse</h2>
@@ -173,13 +237,21 @@
               <figcaption>Runout v aspect ratio</figcaption>
             </figure>
           </section>
-          <!-- DEM -->
+          <!-- MPM slope -->
           <section>
-            <h2>DEM column collapse: a = 6</h2>
-            <video  width="80%" autoplay controls loop>
-              <source src="media/a6_dem.webm" type="video/webm">
+            <h2>MPM slope failure</h2>
+            <video  width="100%" autoplay controls loop>
+              <source src="media/mpm_100j.webm" type="video/webm">
                 Your browser does not support the video tag.
             </video>
+            <p>Horizontal velocity (m/s)</p>
+          </section>
+          <!-- MPM v DEM runout -->
+          <section>
+            <h2>MPM v DEM runout slope v collapse</h2>
+            <figure>
+              <img style = "border:0;" src="images/mpm_slope_column.png" width="90%">
+            </figure>
           </section>
           <!-- MPM Oso landslide -->
           <section>
@@ -188,23 +260,6 @@
               <img style = "border:0;" src="images/mpm-oso.png" width="90%">
               <figcaption>Yerro et al., 2017</figcaption>
             </figure>
-          </section>
-          <!-- MPM Oso landslide -->
-          <section>
-            <h2>MPM simulation of Kaikoura landslide</h2>
-            <figure>
-              <img style = "border:0;" src="images/kaikoura.png" width="100%">
-            </figure>
-          </section>
-          <!-- MPM two-phase -->
-          <section>
-            <h2>MPM multi-phase formulation</h2>
-            <img style = "border:0;" src="images/multiphase-mpm.png" width="80%">
-          </section>
-          <!-- MPM two-phase -->
-          <section>
-            <h2>MPM 2-phase formulation</h2>
-            <img style = "border:0;" src="images/two-phase-mpm.png" width="100%">
           </section>
           <!--Thwo phase slope failure -->
           <section>
@@ -232,37 +287,6 @@
                 Your browser does not support the video tag.
             </video>
             <p>Yerro et al., 2017</p>
-          </section>
-          <!-- Concrete flows -->
-          <section>
-            <h2>Slump cone MPM simulation</h2>
-            <video  width="65%" autoplay controls loop>
-              <source src="media/mpm-slump-cone.webm" type="video/webm">
-                Your browser does not support the video tag.
-            </video>
-            <p>Wilkes et al., 2018</p>
-          </section>
-          <!-- Disney MPM -->
-          <section>
-            <h2>Disney's Frozen: Snow simulation</h2>
-            <video  width="80%"  controls loop muted>
-              <source src="media/snow-roll.webm" type="video/webm">
-                Your browser does not support the video tag.
-            </video>
-          </section>
-          <!-- Rendering-->
-          <section>
-            <h2>Photo-realistic rendering</h2>
-            <ul>
-              <li>HDF5 + VTK</li>
-              <li>Disney Partio: Houdini / Maya / Pixar's RenderMan</li>
-            </ul>
-            <figure>
-              <img style = "border:0;" src="images/mpm-rendering.png" width="80%">
-              <figcaption>
-                Photo-realistic rendering of compression of choco balls with Houdini
-              </figcaption>
-            </figure>
           </section>
           <!--Rendering-->
           <section>
@@ -682,7 +706,7 @@
           <section>
             <h2>LEM Tension test</h2>
             <figure>
-	      <img src="images/lem_tension_test.png" style="width:100%">
+	      <img style = "border:0;" src="images/lem_tension_test.png" style="width:100%">
 	    </figure>
 	  </section>
           
@@ -691,13 +715,13 @@
             <h2>LEM Tension test</h2>
             <div style="float: left; width: 50%;">
               <figure>
-	        <img src="images/tension_uniform_crack.png" style="width:100%">
+	        <img style = "border:0;" src="images/tension_uniform_crack.png" style="width:100%">
                 <figcaption>Uniform</figcaption>
 	      </figure>
 	    </div>	
             <div style="float: right; width: 50%;">
               <figure>
-	        <img src="images/tension_ln1.0_crack.png" style="width:100%">
+	        <img style = "border:0;" src="images/tension_ln1.0_crack.png" style="width:100%">
                 <figcaption>LogNormal 1.0</figcaption>
 	      </figure>
 	    </div>
@@ -729,85 +753,6 @@
                 Your browser does not support the video tag.
             </video>
             <p>Wong et al., (2016)</p>
-          </section>
-        </section>
-        <section>
-          <!-- ABM -->
-          <section>
-            <h2>Agent Based Modeling of cities</h2>
-            <video  width="125%" controls loop>
-              <source src="media/abm.webm" type="video/webm">
-                Your browser does not support the video tag.
-            </video>
-            <p>Soga et al., (2017)</p>
-          </section>
-          <!-- Pavement condition -->
-          <section>
-            <h3>Pavement condition</h3>
-            <figure>
-              <img style = "border:0;" src="images/pavement-condition.gif" width="80%">
-              <figcaption>Degradation of pavement in SF (Bingyu et al., 2018)</figcaption>
-            </figure>
-          </section>
-          
-          <!-- ABM -->
-          <section>
-            <h2>Agent Based Modeling of Tokyo</h2>
-            <video  width="125%" controls loop>
-              <source src="media/tokyo-abm.webm" type="video/webm">
-                Your browser does not support the video tag.
-            </video>
-            <p>Bingyu et al., (2018)</p>
-          </section>
-
-          <!-- HSV2 -->
-          <section>
-            <h2>Network analysis of Herpes Simplex Virus (HSV2)</h2>
-            <div style="float: left; width: 50%;">
-              <figure>
-                <img style = "border:0;" src="images/virus/chimpanzee-rainforest.png" width="100%">
-                <figcaption>
-                  Fossil data
-                </figcaption>
-              </figure>
-            </div>
-            <div style="float: right; width: 50%;">
-              <figure>
-                <img style = "border:0;" src="images/virus/dag-it.png" width="90%">
-                <figcaption>
-                  Transmission route
-                </figcaption>
-              </figure>
-            </div>
-            <div class="block" style="clear: both; width: 100%">
-              <i>Paranthropus boisei</i> is the intermediary species that gave humans herpes! <br/!> (Underdown et al., 2017)
-            </div>
-          </section>
-          <!-- Boisei -->
-          <section>
-            <h2>The usual suspects</h2>
-            <figure>
-              <img style = "border:0;" src="images/boisei.png" width="100%">
-            </figure>
-          </section>
-          <!-- ABM -->
-          <section>
-            <h2>Cellular Automata modeling of disease</h2>
-            <video  width="125%" controls loop>
-              <source src="media/ca-hsv2.webm" type="video/webm">
-                Your browser does not support the video tag.
-            </video>
-          </section>
-          <!-- HSV2 News -->
-          <section>
-            <h2>Top 5% of all research outputs scored by Altmetric</h2>
-            <figure>
-              <img style="border:0;" src="images/virus/hsv2.png" width="100%">
-              <figcaption>
-                Cambridge: 24 things we learned in 2017<br/>
-                #3. We found out who gave us herpes
-              </figcaption>
-            </figure>
           </section>
         </section>
 

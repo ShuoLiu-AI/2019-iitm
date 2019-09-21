@@ -1,6 +1,9 @@
 # Large deformation modeling in geomechanics
 ## MPM and LBM-DEM
-> Krishna Kumar (2019), IIT Madras. 19th August 2019.
+> Krishna Kumar (2019)
+
+Petroleum Engineering, 23 September 2019
+IIT Madras, 20 August 2019
 
 [https://kks32-slides.github.io/2019-iitm/](https://kks32-slides.github.io/2019-iitm/)
 
